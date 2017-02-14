@@ -1,0 +1,46 @@
+rbac-web:
+  build: web/
+  ports:
+    - "8099:80"
+  volumes:
+    - ../:/var/www/html
+  links:
+    - rbac-mongo:mongo
+    # - rbac-oracle:oracle
+  # external_links:
+  #   - bank_smsgw_oracle:oracle
+  container_name: rbac-web
+  env_file:
+    - ./env/docker.env
+
+rbac-mongo:
+  build: mongo/
+  ports:
+    - "27099:27017"
+  container_name: rbac-mongo
+
+rbac-mysql:
+  build: mysql/
+  ports:
+    - 33099:3306
+  container_name: rbac-mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=password
+
+# rbac-oracle:
+#   build: oracle/
+#   ports:
+#     - "15035:1521"
+#   container_name: rbac-oracle
+
+rbac-pma:
+  image: pitchanon/phpmyadmin:latest
+  ports:
+    - 32099:80
+  volumes:
+    - .:/var/www/html
+  links:
+    - rbac-mysql:mysql
+  container_name: rbac-phpmyadmin
+  env_file:
+    - ./env/docker-phpmyadmin.env

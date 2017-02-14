@@ -1,0 +1,68 @@
+{ 
+    "_id" : ObjectId("56a1e6709c368e1489fcd8d8"), 
+    "username" : "adminhpack", 
+    "password" : "$2y$10$E2lqrA6O9qT4gFTzpp3IF.G5i2vE2nbDBisHV1Ho95xXujD/gxEKW", 
+    "parent" : "0"
+}
+{ 
+    "_id" : ObjectId("58579d29cf01c5000f353c55"), 
+    "username" : "pla2aroi", 
+    "password" : "$2y$10$Ar2YSMaXGKNci21a7VosJ.504ge3V3X7PddowVgzoccZOgzmpPLuK", 
+    "isSuperAdmin" : true, 
+    "parent" : "56a1e6709c368e1489fcd8d7"
+}
+{ 
+    "_id" : ObjectId("58579fcecf01c5001112f842"), 
+    "username" : "testing2", 
+    "password" : "$2y$10$C7KVpFpufcOir/iSm0O0PuP1zuokxpv9X7327GI51qD3rQ5VcBcHC", 
+    "parent" : "56a1e6709c368e1489fcd8d7"
+}
+{ 
+    "_id" : ObjectId("5858a321cf01c500093437e2"), 
+    "username" : "testing3", 
+    "password" : "$2y$10$mEziH5FabLn0F3UfLitI5OxXaKXtAVh6O.eYyywdm2UhvopnNzJRm", 
+    "parent" : "56a1e6709c368e1489fcd8d7"
+}
+{ 
+    "_id" : ObjectId("588496f059233700137a3f52"), 
+    "username" : "123213", 
+    "password" : "$2y$10$fG/OauFqUE1J8DWPxV9eE.kHs7hTOoT/Oi1IOK78.tbdqnc21CgD6", 
+    "parent" : ObjectId("56a1e6709c368e1489fcd8d7")
+}
+{ 
+    "_id" : ObjectId("5884971459233700152c79a2"), 
+    "username" : "Dashboard", 
+    "password" : "$2y$10$VjQ1NnY5N82kwkO.ASAphuA1ANeQdulBq8sVND3wDgEbAsMBNYqQ6", 
+    "parent" : ObjectId("56a1e6709c368e1489fcd8d7")
+}
+{ 
+    "_id" : ObjectId("588497b2592337000834d3c2"), 
+    "username" : "Dashboard1", 
+    "password" : "$2y$10$lq2VqLIGMYPQbbHVG6AnWe4z2rOpcKVxwdMJFewOcUcZLkoJnt0Zi", 
+    "parent" : ObjectId("56a1e6709c368e1489fcd8d7")
+}
+{ 
+    "_id" : ObjectId("588498f659233700070d0f52"), 
+    "username" : "Dashboard2", 
+    "password" : "$2y$10$t7tUBFNqYMGrDUC/m9Ly7uthjQt09RWc1Q98E5DXLQ9rluqLrV6Na", 
+    "parent" : ObjectId("56a1e6709c368e1489fcd8d7")
+}
+{ 
+    "_id" : ObjectId("5884a34f5923370012661482"), 
+    "username" : "FormForm", 
+    "password" : "$2y$10$SX/KHmTsnj.1BfBwUkCZPuR.7nI3fvzNFY/RU/Vez54EaWX.iCY9S", 
+    "parent" : ObjectId("56a1e6709c368e1489fcd8d7")
+}
+{ 
+    "_id" : ObjectId("5884b01959233700137a3f54"), 
+    "username" : "smsscb001", 
+    "password" : "$2y$10$Eksu4wEjZQ66DglX3GJPJ.eRwyBjFt/POJBPyCDXPEZnvs3Psih9O", 
+    "parent" : ObjectId("56a1e6709c368e1489fcd8d7")
+}
+{ 
+    "_id" : ObjectId("58928a2559233701a30ebc74"), 
+    "username" : "admin", 
+    "password" : "$2y$10$7vVORCuRjLgcceaC5f4I2.gfCCbpKUg7Sw60Z1BklS6vUW3oAqxCy", 
+    "isSuperAdmin" : true, 
+    "parent" : "588496f059233700137a3f52"
+}
